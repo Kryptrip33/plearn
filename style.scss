@@ -1,0 +1,20 @@
+$color: green;
+$bgcolor: #d3d3d3;
+
+div{
+    background-color: $bgcolor;
+    p {
+        font-size: 13px;
+        color: $color;
+    }
+    
+}
+%message{
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 18px;
+}
+.success{
+    @extend %message;
+    background-color: grayscale($color: 1523623);
+}
