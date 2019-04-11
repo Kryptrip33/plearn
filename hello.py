@@ -5,3 +5,4 @@ class Point:
 
 p = Point(3, 5)
 print(p.x,p.y)
+
